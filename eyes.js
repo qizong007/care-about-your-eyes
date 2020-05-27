@@ -32,14 +32,14 @@ function checkStatus(standardStatus){
         correctCount++;
         if(correctCount%5 == 0){
             nowScore += 0.1;
-            alert("你现在的视力是："+nowScore.toFixed(1));
+            //alert("你现在的视力是："+nowScore.toFixed(1));
             smaller(img);
         }
     }else{
         wrongCount++;
         if(wrongCount%5 == 0){
             nowScore -= 0.1;
-            alert("你现在的视力是："+nowScore.toFixed(1));
+            //alert("你现在的视力是："+nowScore.toFixed(1));
             bigger(img);
         }
     }
@@ -69,7 +69,7 @@ function pressButton(img){
         // 空格键：看不到了，需要放大
         if(event.keyCode == 32){
             nowScore -= 0.1;
-            alert("你现在的视力是："+nowScore.toFixed(1));
+            //alert("你现在的视力是："+nowScore.toFixed(1));
             bigger(img);
             refreshCount();
         }
