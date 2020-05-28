@@ -1,6 +1,6 @@
 # Description
 
-A `JavaScript `demo to simply test your eyes condition.:eye: 
+A `JavaScript` demo to simply test your eyes condition.:eye: 
 
 
 
@@ -8,7 +8,7 @@ A `JavaScript `demo to simply test your eyes condition.:eye:
 
 Test your eyes' condition recently.
 
-- Just press your keyboard's `↑``↓``←``→` to control the directions.
+- Just press your keyboard's `↑ ↓ ← →` to control the directions.
 - If you can't see it, just press the `space` to zoom in.
 - If you want to pass the picture, just press the `Enter`.
 
