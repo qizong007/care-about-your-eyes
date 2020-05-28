@@ -73,6 +73,10 @@ function pressButton(img){
             bigger(img);
             refreshCount();
         }
+        // 回车：跳过
+        if(event.keyCode == 13){
+            changeDirections(img);
+        }
     };
 }
 
